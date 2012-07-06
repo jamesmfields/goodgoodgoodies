@@ -1,0 +1,181 @@
+/*** NORMAL HTML STUFF ***/
+body {
+	font-family: arial;
+	font-size: 10pt;
+	text-align: center;
+	background: #606060;
+	color: #666;	
+}
+h1 {
+	font-size: 16px;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+}
+h2 {
+	font-size: 14px;
+	text-align: left;
+}
+img {
+	border: none;
+	margin: 0px;
+}
+
+/*** TABLES ***/
+table {
+	border-collapse: collapse;
+}
+#display td {
+	padding: 3px;
+	border-bottom: 1px solid #666;
+}
+
+a {
+	color: #0094FF;
+}
+
+/*** WRAPPER ***/
+#wrapper {
+	width: 600px;
+	margin: 0px auto;
+	border: 6px double #EEEEEE;
+	background: white;
+}
+
+/*** TOP ***/
+#top {
+	background-image: url('header2.jpg');
+	background-repeat: no-repeat;
+	z-index: -1;
+	width: 600px;
+	height: 130px;
+}
+#header {
+	padding: 0px;
+	margin: 0px;
+	height: 100px;
+	line-height: 120px;
+	font-size: 43px;
+	font-family: times;
+	color: #0094FF;
+}
+#name {
+	text-align: right;
+	font-size: 10pt;
+	margin: 0px 5px 5px 5px;
+}
+ul#minitabs{
+	list-style: none;
+	margin: 0;padding: 7px 0;
+	border-bottom: 1px solid #CCC;
+	font-weight: bold;
+	text-align: center;
+	white-space: nowrap;
+}
+ul#minitabs li{
+	display: inline;
+	margin: 0 3px;
+}
+ul#minitabs a{
+	text-decoration: none;
+	padding: 0 0 3px;
+	border-bottom: 4px solid #FFF;
+	color: #999;
+}
+ul#minitabs a#current{
+	border-color: #7FC9FF;
+	color:#666;
+}
+ul#minitabs a:hover{
+	border-color: #7FC9FF;
+	color: #666;
+}
+/*** CONTAINER ***/
+#container {
+	text-align: left;
+	width: 600px;
+	border: 2px double #0094FF;
+	background-color: white;
+	margin: 0px auto;
+}
+
+/*** CONTENT ***/
+#content {
+	background-color: #FFFFFF;
+	padding: 5px;
+	text-align: left;
+	margin: 5px;
+	min-height: 400px
+}
+
+/*** LOGIN FORM ***/
+.login {	
+	border: 2px #7FC9FF solid;
+	padding: 14px;
+	margin: 0px auto;
+	background-color: #BFE4FF;
+	width: 250px;
+}
+.login label {
+	display: block;
+	font-weight: bold;
+	text-align: right;
+	float: left;
+	width: 100px;
+	margin: 3px;
+}
+.login input {
+	display: block;
+	font-weight: bold;
+	text-align: left;
+	float: left;
+	width: 100px;
+	margin: 3px;
+	border: 1px solid #7FC9FF;
+}
+#stylized button {
+	background-color: #CCC;
+	height: 31px;
+	width: 100px;
+	clear: both;
+	margin-left: 109px;
+	line-height: 25px;
+	border: 2px #7FC9FF solid;
+}
+.adding input, select{
+	display: block;
+	font-weight: bold;
+	text-align: left;
+	float: left;
+	width: 100px;
+	margin: 3px;
+	border: 1px solid #7FC9FF;
+}
+.adding button {
+	background-color: #CCC;
+	height: 31px;
+	width: 100px;
+	clear: both;
+	margin-left: 109px;
+	line-height: 25px;
+	border: 2px #7FC9FF solid;
+}
+
+/*** CLASSES ***/
+.red {
+	color: red;
+}
+.mini {
+	font-size: 8pt;
+}
+
+.subSection{
+	padding: 0px 0 0 30px;
+	/*border-bottom: solid 1px #7FC9FF;*/
+
+}
+.subSection h2 {
+	color: #0094FF;
+
+}
+
